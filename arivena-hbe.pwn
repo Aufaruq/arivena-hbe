@@ -58,7 +58,7 @@ hook OnPlayerConnect(playerid){
 	ShowHbeaufa(playerid);
 }
 
-hook public OnGameModeInit() {
+hook OnGameModeInit() {
     HbeArivenaAufa[playerid][0] = CreatePlayerTextDraw(playerid, 273.000, 406.000, "LD_SPAC:white");
     PlayerTextDrawTextSize(playerid, HbeArivenaAufa[playerid][0], 27.000, 29.000);
     PlayerTextDrawAlignment(playerid, HbeArivenaAufa[playerid][0], 1);
